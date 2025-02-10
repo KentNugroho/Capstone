@@ -1,0 +1,58 @@
+
+
+
+.profile {
+    position: relative;
+    overflow: hidden;  
+    background-image: url(./Assets/@tukangfoto_bpn\ \(268\).jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .profile::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Warna hitam dengan opasitas 80% */
+    z-index: 0;
+  }
+  .profile .col-md-6 {
+    position: relative;
+    z-index: 1;
+  }
+
+  .icon-link {
+    text-decoration: none;
+  }
+
+  .kasihputih{
+    color: white !important;
+  }
+
+
+.nav-link {
+    color: red !important; 
+  }
+
+.active {
+    color: white !important;
+}
+.nav-link.active {
+    background-color: #dc3545 !important; /* Warna latar belakang merah */
+  }
+
+.borderr {
+  border-radius: 2%;
+} 
+
+.other-skills{
+  font-family: sans-serif;
+}
+
+.kasihradius {
+  border-radius: 1%;
+}
